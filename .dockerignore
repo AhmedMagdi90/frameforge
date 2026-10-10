@@ -1,0 +1,14 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/__pycache__
+**/*.pyc
+**/*.sqlite3*
+backend/data
+.venv
+.git
+.dart_tool
+build
+android
+ios
+*.zip
