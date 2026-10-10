@@ -1,0 +1,32 @@
+name: frameforge
+description: A local-first Flutter video editor for Android and iOS.
+publish_to: none
+version: 0.6.0+6
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+  flutter: '>=3.35.0'
+
+dependencies:
+  characters: ^1.4.0
+  flutter:
+    sdk: flutter
+  file_picker: ^10.3.3
+  path_provider: ^2.1.5
+  video_player: 2.10.0
+  # Keep the Android playback adapter aligned with our pinned Media3 engine.
+  video_player_android: 2.8.1
+  just_audio: ^0.10.5
+  share_plus: ^11.1.0
+  http: ^1.4.0
+  crypto: ^3.0.6
+  flutter_secure_storage: ^9.2.4
+  flutter_web_auth_2: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
